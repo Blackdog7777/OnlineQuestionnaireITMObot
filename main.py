@@ -168,14 +168,14 @@ def view_answers(message):
 def git(message):
     mci = message.chat.id
     print(f"[LOG] used command {message.text.split()[:]} in chatID: {mci}")
-    client.send_message(message.chat.id, f"Ссылка: ")
+    client.send_message(message.chat.id, f"Ссылка: https://github.com/Blackdog7777/OnlineQuestionnaireITMObot")
 
 
 @client.message_handler(commands=['docs'])
 def docs(message):
     mci = message.chat.id
     print(f"[LOG] used command {message.text.split()[:]} in chatID: {mci}")
-    client.send_message(message.chat.id, f"Ссылка: ")
+    client.send_message(message.chat.id, f"Ссылка: https://github.com/Blackdog7777/OnlineQuestionnaireITMObot/blob/main/README.md")
 
 
 client.polling(none_stop=True, interval=0)

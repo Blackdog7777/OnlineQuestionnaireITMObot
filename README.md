@@ -10,4 +10,4 @@
 <li>/git</li>
 </ul>
 
-<a href="
+<a href="https://github.com/Blackdog7777/OnlineQuestionnaireITMObot">Git-репозиторий</a>
